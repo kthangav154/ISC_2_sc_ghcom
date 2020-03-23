@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_isc_2_sc_ghc.sinc2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sinc2</name>
+        <script><![CDATA[var sinc2 = Class.create();
+sinc2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'sinc2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin1</sys_created_by>
+        <sys_created_on>2020-03-23 13:24:20</sys_created_on>
+        <sys_id>444c6868db3f0010474451bfdf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sinc2</sys_name>
+        <sys_package display_value="ISC_2_sc_ghcom" source="x_snc_isc_2_sc_ghc">b5bbec28db3f0010474451bfdf9619d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ISC_2_sc_ghcom">b5bbec28db3f0010474451bfdf9619d1</sys_scope>
+        <sys_update_name>sys_script_include_444c6868db3f0010474451bfdf9619ee</sys_update_name>
+        <sys_updated_by>admin1</sys_updated_by>
+        <sys_updated_on>2020-03-23 13:24:20</sys_updated_on>
+    </sys_script_include>
+</record_update>
